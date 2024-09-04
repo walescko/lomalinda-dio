@@ -1,0 +1,221 @@
+body {
+  background-color: #c3e6cb;
+  font-family: "Shantell Sans", cursive;
+  margin: 0px;
+}
+.header-container {
+  height: 100px;
+  width: auto;
+  box-sizing: border-box;
+  text-align: right;
+  display: flex;
+}
+.img-content {
+  width: 8%;
+  height: auto;
+  /*float: outside;*/
+}
+.title-header {
+  box-sizing: border-box;
+  text-align: center;
+  float: inherit;
+  width: 67%;
+  background-color: #294e2f;
+}
+.title-header h1 {
+  text-transform: uppercase;
+  font-family: Arial;
+  color: antiquewhite /*#FEFEF0*/;
+  font-size: 50px;
+  text-shadow: #0f0f0f 4px 3px 3px;
+}
+.title-header h6 {
+  font-family: Arial;
+  color: #fefef0;
+  text-shadow: #0f0f0f 1px 1px 1px;
+}
+.nav-header {
+  width: 30%;
+  background-color: #294e2f;
+  color: #fefef0;
+  text-align: center;
+  float: right;
+
+}
+.nav-header p {
+  width: 8%;
+  height: auto;
+  display: inline-block;
+}
+
+.img-nav{
+  width: 90%;
+  height: auto;
+}
+
+.nav-header li {
+  list-style-type: none;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+.nav-header a {
+  display: block;
+  letter-spacing: 1px;
+  transition: color 0.4s linear;
+}
+a:link {
+  text-decoration: none;
+  color: #fefef0;
+}
+a:visited {
+  color: #fefef0;
+}
+a:hover {
+  color: #29c997;
+}
+main {
+  width: auto;
+  color: #12520f;
+  text-align: justify;
+  border: #0f0f0f 5px;
+  padding: 2px;
+}
+.main-container {
+  width: 100%;
+  max-width: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas: "container-menu container-main main-menu";
+  flex: 1 0 auto;
+  gap: 5px;
+  padding: 1% 0 1% 0;
+}
+.container-section {
+  background-color: #39b3d7;
+  padding: 5px;
+  margin: 1px;
+  overflow: auto;
+  width: 20%;
+}
+.container-menu {
+  box-sizing: border-box;
+  text-align: left;
+  padding: 1% 1% 1% 1%;
+  float: left;
+  color: #12520f;
+  text-transform: uppercase;
+  grid-area: container-menu;
+}
+.container-menu li {
+  list-style-type: none;
+  margin: 0;
+  line-height: 1.5;
+}
+.item-container-menu {
+  color: #12520f;
+  border: 1px;
+  background: antiquewhite;
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+}
+.item-container-menu a:link {
+  text-decoration: none;
+  color: #12520f;
+}
+.item-container-menu a:visited {
+  color: #12520f;
+}
+.item-container-menu a:hover {
+  color: #12c010;
+}
+.container-main {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  grid-area: main-section;
+  padding-bottom: 1%;
+  width: 95%;
+  grid-area: container-main;
+}
+.main-menu {
+  background-color: #0fcf2f;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: white;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+  grid-area: main-menu;
+}
+.list-menu {
+  color: #fffff0;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 3px;
+  text-align: center;
+  transition: 0.5ms;
+  cursor: pointer;
+}
+.list-menu a {
+  text-decoration: none;
+  color: #fffff0;
+}
+.list-menu:hover {
+  border-color: #b8daff;
+  background-color: #06a821;
+}
+.list-menu a:hover {
+  color: #fffff0;
+}
+.maps-location {
+  width: 90%;
+  height: 50%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.maps-location iframe {
+  width: 80%;
+  height: 80%;
+}
+.nav-footer {
+  font-family: Arial;
+  font-size: 14px;
+  color: #39f3d7;
+  text-shadow: #0f0f0f 1px 1px 1px;
+  background-color: #313131;
+  padding: 0.3%;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  display: flex;
+  height: auto;
+}
+.button-footer {
+  width: 50%;
+  text-align: center;
+}
+.nav-designer {
+  width: 50%;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transform: translateY(22%);
+}
+.nav-designer-index {
+  width: 100%;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transform: translateY(22%);
+}
+.nav-footer a {
+  text-decoration: none;
+  transition: color 0.2s linear;
+  align-items: center;
+}

@@ -1,0 +1,43 @@
+body{
+    color: #FBFF9F;
+    margin-left: 0; margin-right: 0; margin-bottom: 30px; margin-top: 30px;
+    background-color: #39b3d7;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif; color: #ffecb5; text-transform: uppercase;
+    margin: auto;
+
+}
+h2 {
+    text-align: center;
+    font-family: sans-serif; color: #F1A165; text-transform: uppercase;
+}
+h3 {text-align: center; text-transform: capitalize; color: #FFA24F;}
+h4 {text-align: center; font-family: serif; color: #F1A165;}
+h5 {text-align: center;}
+h6 {text-align: center;}
+p  {
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+ul{
+    font-family: sans-serif;
+    text-align: center;
+    list-style-position: inside;
+}
+
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.buttonPosition {text-align: left;}
+
+.lightDark-mode {
+    background-color: #020545;
+    color: #12520F;
+}
